@@ -2,10 +2,12 @@
 public class GumballMachineTestDrive {
 
 	public static void main(String[] args) {
-		GumballMachine gumballMachine = new GumballMachine(5);
+		GumballMachine gm = new GumballMachine(5);
 		
-		System.out.println (gumballMachine);
-		
+		System.out.println (gm);
+		gm.insertQuarter();
+		gm.turnCrank();
+		System.out.println (gm);
 		
 		
 	}
