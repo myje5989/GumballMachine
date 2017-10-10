@@ -47,7 +47,7 @@ public class GumballMachine {
 		} else if(state == NO_QUARTER){
 			System.out.println("You turned but there's no quarter");
 		} else if(state == SOLD_OUT){
-			System.out.println("You turned, but thereare no gumballs");
+			System.out.println("You turned, but there are no gumballs");
 		} else if(state == HAS_QUARTER){
 			System.out.println("You turned...");
 			state = SOLD;
